@@ -1,0 +1,13 @@
+#space-contact {
+  height: 600px;
+}
+
+.contact-section {
+	margin: auto;
+	width: 85%;
+}
+
+#email {
+	margin-left: 10px;
+	font-size:18px;
+}

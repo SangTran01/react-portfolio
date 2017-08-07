@@ -1,0 +1,13 @@
+.text-indent {
+	text-indent: 50px; 
+	line-height: 150%;
+}
+
+.about-section {
+	margin: auto;
+	width: 85%;
+}
+
+#space-about {
+  height: 100px;
+}
