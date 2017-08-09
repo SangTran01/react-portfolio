@@ -1,16 +1,9 @@
 import React from 'react';
-import '../css/Contact.css';
+import '../css/Footer.css';
 
-const Contact = () => {
+const Footer = () => {
 	return(
-		<div>
-			<h2 className='title'>Contact</h2>
-			<div className="contact-section">
-  				<p>If you have to tell me something, or just to say 'Hello!' send me a email at
-        		<a id="email" href="mailto:tony_633@hotmail.com">tony_633@hotmail.com</a>
-      			</p>  
-    		</div>
-    	<footer id="myFooter">
+		<footer id="myFooter">
 	        <div className="container">
 	        <p className="footer-copyright">Created By: SANG TRAN</p>
 	        </div>
@@ -21,8 +14,7 @@ const Contact = () => {
 	            <a href="https://www.linkedin.com/in/sang-t-814ba9140/" className="social-icons"><i className="fa fa-linkedin"></i></a>
 	        </div>
 	    </footer>
-		</div>
 	);
 }
 
-export default Contact;
+export default Footer;

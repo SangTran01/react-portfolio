@@ -170,7 +170,20 @@ const ProjectsApi = {
     'devicon-css3-plain-wordmark', 
     'devicon-javascript-plain',
     ]
-  },  
+  },
+  {
+    id:"13",
+    title:"Flask Postgresql App",
+    description:"Created Using React. Meant for FCC",
+    image:images['learn-flask.png'],
+    url:"https://intense-mesa-77179.herokuapp.com/",
+    gitUrl:"https://github.com/SangTran01/learn-flask",
+    tools:[
+    'devicon-python-plain-wordmark', 
+    'devicon-postgresql-plain-wordmark', 
+    'devicon-javascript-plain',
+    ]
+  }  
   ],
   all: function() {return this.projects},
   get: function(id) {
