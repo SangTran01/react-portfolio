@@ -11,3 +11,120 @@
 #space-about {
   height: 100px;
 }
+
+#aboutFooter{
+    padding-top:32px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#aboutFooter .container{
+    text-align: center;
+}
+
+#aboutFooter .footer-copyright{
+    margin-bottom: 35px;
+    text-align: center;
+    color: #777;
+}
+
+#aboutFooter ul{
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 18px;
+}
+
+#aboutFooter a{
+    color: #282b2d;
+    font-size: 18px;
+}
+
+#aboutFooter li{
+    display: inline-block;
+    margin: 0px 15px;
+    line-height: 2;
+}
+
+#aboutFooter .footer-social{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #eee;
+}
+
+#aboutFooter .fa{
+    font-size: 36px;
+    margin-right: 15px;
+    margin-left: 20px;
+    background-color: white;
+    color: #d0d0d0;
+    border-radius: 51%;
+    padding: 10px;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    line-height: 43px;
+    text-decoration: none;
+    transition:color 0.2s;
+}
+
+#aboutFooter .fa-free-code-camp:hover{
+   color: #268d33;
+}
+
+#aboutFooter .fa-free-code-camp:focus{
+    color: #268d33; 
+}
+
+#aboutFooter .fa-google-plus:hover{
+    color:red;
+}
+
+#aboutFooter .fa-google-plus:focus{
+    color:red;
+}
+
+#aboutFooter .fa-linkedin:hover{
+    color: #005ccc;
+
+}
+
+#aboutFooter .fa-linkedin:focus{
+    color:#005ccc;
+}
+
+#aboutFooter .fa-github:hover{
+   color: #000;
+}
+
+#aboutFooter .fa-github:focus{
+    color: #000; 
+}
+
+
+/* CSS used for positioning the footers at the bottom of the page. */
+/* You can remove this. */
+
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    height: 100%;
+}
+
+.content{
+   flex: 1 0 auto;
+   -webkit-flex: 1 0 auto;
+   min-height: 200px;
+}
+
+#aboutFooter{
+   flex: 0 0 auto;
+   -webkit-flex: 0 0 auto;
+}

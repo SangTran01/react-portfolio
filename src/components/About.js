@@ -42,7 +42,7 @@ const About = () => {
 	      </ul>
 
 	    </div>
-	    <footer id="myFooter">
+	    <footer id="aboutFooter">
 	        <div className="container">
 	        <p className="footer-copyright">Created By: SANG TRAN</p>
 	        </div>
